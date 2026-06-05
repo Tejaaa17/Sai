@@ -9,7 +9,19 @@ function loadTemplateBodyHtml() {
     "components",
     "collapse.html",
   );
-  const raw = fs.readFileSync(sourcePath, "utf8");
+    let raw;
+  try {
+    raw = fs.readFileSync(sourcePath, "utf8");
+  } catch (error) {
+    if (error?.code === "ENOENT") {
+      return `<div style="padding:2rem;font-family:system-ui, sans-serif;text-align:center;">
+        <h1>404</h1>
+        <p>Template not found: ${path.relative(process.cwd(), sourcePath)}</p>
+      </div>`;
+    }
+    throw error;
+  }
+
 
   const bodyMatch = raw.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
   if (!bodyMatch) {
