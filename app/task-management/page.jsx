@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 function loadTemplateBodyHtml() {
-  const sourcePath = path.join(process.cwd(), "..", "src", "task-management.html");
+  const sourcePath = path.join(process.cwd(), "task-management.html");
   const raw = fs.readFileSync(sourcePath, "utf8");
 
   const bodyMatch = raw.match(/<body[^>]*>([\s\S]*?)<\/body>/i);

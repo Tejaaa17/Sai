@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 function loadTemplateBodyHtml() {
-  const sourcePath = path.join(process.cwd(), "..", "src", "analytics.html");
+  const sourcePath = path.join(process.cwd(), "analytics.html");
   const raw = fs.readFileSync(sourcePath, "utf8");
 
   const bodyMatch = raw.match(/<body[^>]*>([\s\S]*?)<\/body>/i);

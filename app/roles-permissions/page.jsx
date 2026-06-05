@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 function loadTemplateBodyHtml() {
-  const sourcePath = path.join(process.cwd(), "..", "src", "roles-permissions.html");
+  const sourcePath = path.join(process.cwd(), "roles-permissions.html");
   const raw = fs.readFileSync(sourcePath, "utf8");
 
   const bodyMatch = raw.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
