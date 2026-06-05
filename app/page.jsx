@@ -18,10 +18,10 @@ const dashboardHtml = `
         </form>
         <ul class="navbar-nav gap-4 flex-row d-none d-xxl-flex">
           <li class="nav-item">
-            <a class="nav-link" href="analytics.html">Reports & Analytics</a>
+            <a class="nav-link" href="/analytics">Reports & Analytics</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/faq.html">Help</a>
+            <a class="nav-link" href="/pages/faq">Help</a>
           </li>
         </ul>
       </div>
@@ -52,7 +52,7 @@ const dashboardHtml = `
         </div>
         <div class="vr my-3"></div>
         <div class="d-flex align-items-center gap-sm-2 gap-0 px-lg-4 px-sm-2 px-1">
-          <a href="email/inbox.html" class="btn btn-icon btn-action-gray rounded-circle waves-effect waves-light position-relative">
+          <a href="/email/inbox" class="btn btn-icon btn-action-gray rounded-circle waves-effect waves-light position-relative">
             <i class="fi fi-rr-envelope"></i>
             <span class="position-absolute top-0 end-0 p-1 mt-1 me-1 bg-danger border border-3 border-light rounded-circle">
               <span class="visually-hidden">New alerts</span>
@@ -105,7 +105,7 @@ const dashboardHtml = `
               </div>
             </div>
           </div>
-          <a href="calendar.html" class="btn btn-icon btn-action-gray rounded-circle waves-effect waves-light">
+          <a href="/calendar" class="btn btn-icon btn-action-gray rounded-circle waves-effect waves-light">
             <i class="fi fi-rr-calendar"></i>
           </a>
         </div>
@@ -136,12 +136,12 @@ const dashboardHtml = `
               <div class="dropdown-divider my-1"></div>
             </li>
             <li>
-              <a class="dropdown-item d-flex align-items-center gap-2" href="profile.html">
+              <a class="dropdown-item d-flex align-items-center gap-2" href="/profile">
                 <i class="fi fi-rr-user scale-1x"></i> View Profile
               </a>
             </li>
             <li>
-              <a class="dropdown-item d-flex align-items-center gap-2 text-danger" href="authentication/login-basic.html">
+              <a class="dropdown-item d-flex align-items-center gap-2 text-danger" href="/authentication/login-basic">
                 <i class="fi fi-sr-exit scale-1x"></i> Log Out
               </a>
             </li>
@@ -169,7 +169,7 @@ const dashboardHtml = `
             <span class="text-uppercase text-2xs fw-semibold text-muted d-block mb-2">Recently Searched:</span>
             <ul class="list-inline search-list">
               <li>
-                <a class="search-item" href="index.html">
+                <a class="search-item" href="/">
                   <i class="fi fi-rr-apps"></i> Dashboard
                 </a>
               </li>
@@ -184,13 +184,13 @@ const dashboardHtml = `
   <!-- begin::GXON Sidebar Menu -->
   <aside class="app-menubar" id="appMenubar">
     <div class="app-navbar-brand">
-      <a class="navbar-brand-logo" href="index.html">
+      <a class="navbar-brand-logo" href="/">
         <img src="assets/images/logo.svg" alt="GXON Admin Dashboard Logo">
       </a>
-      <a class="navbar-brand-mini visible-light" href="index.html">
+      <a class="navbar-brand-mini visible-light" href="/">
         <img src="assets/images/logo-text.svg" alt="GXON Admin Dashboard Logo">
       </a>
-      <a class="navbar-brand-mini visible-dark" href="index.html">
+      <a class="navbar-brand-mini visible-dark" href="/">
         <img src="assets/images/logo-text-white.svg" alt="GXON Admin Dashboard Logo">
       </a>
     </div>
@@ -203,7 +203,7 @@ const dashboardHtml = `
           </a>
           <ul class="menu-inner">
             <li class="menu-item">
-              <a class="menu-link" href="index.html">
+              <a class="menu-link" href="/">
                 <span class="menu-label">Dashboard</span>
               </a>
             </li>
@@ -212,7 +212,7 @@ const dashboardHtml = `
       </ul>
     </nav>
     <div class="app-footer">
-      <a href="pages/faq.html" class="btn btn-outline-light waves-effect btn-shadow btn-app-nav w-100">
+      <a href="/pages/faq" class="btn btn-outline-light waves-effect btn-shadow btn-app-nav w-100">
         <i class="fi fi-rs-interrogation text-primary"></i>
         <span class="nav-text">Help and Support</span>
       </a>
@@ -280,10 +280,10 @@ const dashboardHtml = `
         <div class="col-lg-6 col-md-5">
           <ul class="d-flex list-inline mb-0 gap-3 flex-wrap justify-content-center justify-content-md-end">
             <li>
-              <a class="text-body" href="index.html">Home</a>
+              <a class="text-body" href="/">Home</a>
             </li>
             <li>
-              <a class="text-body" href="pages/faq.html">Faq's</a>
+              <a class="text-body" href="/pages/faq">Faq's</a>
             </li>
           </ul>
         </div>
@@ -292,10 +292,11 @@ const dashboardHtml = `
   </footer>
   <!-- end::GXON Footer -->
 
-</div>
+</div> 
 `;
+import HtmlRenderer from "./_components/HtmlRenderer";
 
 export default function HomePage() {
-  return <div dangerouslySetInnerHTML={{ __html: dashboardHtml }} />;
+  return <HtmlRenderer html={dashboardHtml} />;
 }
 
