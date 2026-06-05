@@ -1,0 +1,9 @@
+{
+  "/ecommerce/orders/page": "app/ecommerce/orders/page.js",
+  "/ecommerce/product-details/page": "app/ecommerce/product-details/page.js",
+  "/ecommerce/product-list/page": "app/ecommerce/product-list/page.js",
+  "/ecommerce/products/page": "app/ecommerce/products/page.js",
+  "/ecommerce/transactions/page": "app/ecommerce/transactions/page.js",
+  "/email/compose/page": "app/email/compose/page.js",
+  "/email/read-email/page": "app/email/read-email/page.js"
+}
