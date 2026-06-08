@@ -1,9 +1,12 @@
 {
-  "/ecommerce/orders/page": "app/ecommerce/orders/page.js",
-  "/ecommerce/product-details/page": "app/ecommerce/product-details/page.js",
-  "/ecommerce/product-list/page": "app/ecommerce/product-list/page.js",
-  "/ecommerce/products/page": "app/ecommerce/products/page.js",
-  "/ecommerce/transactions/page": "app/ecommerce/transactions/page.js",
-  "/email/compose/page": "app/email/compose/page.js",
-  "/email/read-email/page": "app/email/read-email/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/analytics/page": "app/analytics/page.js",
+  "/calendar/page": "app/calendar/page.js",
+  "/chat/page": "app/chat/page.js",
+  "/email/inbox/page": "app/email/inbox/page.js",
+  "/page": "app/page.js",
+  "/pages/[slug]/page": "app/pages/[slug]/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/task-management/page": "app/task-management/page.js"
 }

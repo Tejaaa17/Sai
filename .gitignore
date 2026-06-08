@@ -30,3 +30,7 @@ coverage/
 *.swp
 *.swo
 
+# local scratch scripts
+scratch/
+
+

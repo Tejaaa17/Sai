@@ -30,6 +30,15 @@ function loadTemplateBodyHtml() {
 
   bodyHtml = bodyHtml.replaceAll('href="assets/', 'href="/assets/');
   bodyHtml = bodyHtml.replaceAll('src="assets/', 'src="/assets/');
+  
+  // Clean up relative/static .html links to resolve correctly as absolute Next.js routes
+  bodyHtml = bodyHtml.replace(/href="([^"]+)\.html"/g, (match, p) => {
+    if (p.startsWith('http') || p.startsWith('//') || p.startsWith('#')) return match;
+    let cleanPath = p.startsWith('../') ? p.substring(3) : p;
+    cleanPath = cleanPath.startsWith('/') ? cleanPath : '/' + cleanPath;
+    if (cleanPath === '/index') cleanPath = '/';
+    return `href="${cleanPath}"`;
+  });
 
   return bodyHtml;
 }

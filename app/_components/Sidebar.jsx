@@ -693,6 +693,36 @@ export default function Sidebar() {
                 <span className="menu-label">Changelog v1.5.0</span>
               </a>
             </li>
+            <li className="menu-item menu-arrow">
+              <Link className="menu-link" href="#" role="button">
+                <i className="fi fi-rs-floor-layer"></i>
+                <span className="menu-label">Multi Level</span>
+              </Link>
+              <ul className="menu-inner">
+                <li className="menu-item menu-arrow">
+                  <Link className="menu-link" href="#">
+                    <span className="menu-label">Multi Level 2</span>
+                  </Link>
+                  <ul className="menu-inner">
+                    <li className="menu-item">
+                      <Link className="menu-link" href="#">
+                        <span className="menu-label">Multi Level 3</span>
+                      </Link>
+                    </li>
+                    <li className="menu-item">
+                      <Link className="menu-link" href="#">
+                        <span className="menu-label">Multi Level 3</span>
+                      </Link>
+                    </li>
+                    <li className="menu-item">
+                      <Link className="menu-link" href="#">
+                        <span className="menu-label">Multi Level 3</span>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
           </ul>
         </nav>
         <div className="app-footer">

@@ -1,4 +1,5 @@
 import Script from "next/script";
+import TemplateInitializer from "./_components/TemplateInitializer";
 
 export default function RootLayout({ children }) {
   return (
@@ -82,6 +83,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/assets/css/styles.css" />
       </head>
       <body suppressHydrationWarning>
+        <TemplateInitializer />
         {children}
 
         <Script src="/assets/libs/global/global.min.js" strategy="afterInteractive" />

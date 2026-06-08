@@ -217,7 +217,7 @@ function initSidebarMenu() {
 			jQuery(this).removeClass('open');
 			jQuery(this).parent('li').children('.menu-inner').slideUp();
 		}else{
-			if (!window.event.ctrlKey) {
+			if (!e.ctrlKey) {
 				jQuery(this).addClass('open');
 			}
 			if(jQuery(this).parent('li').children('.menu-inner').length > 0){
@@ -452,8 +452,8 @@ function initSidebarPanel() {
 	});
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    Waves.init();
+window.initGXONTemplate = () => {
+    if (typeof Waves !== "undefined") Waves.init();
 	initAppToggler();
 	saerchList();
 	setElementHeight();
@@ -467,8 +467,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	initEmailSidebarToggle();
 	initChatSidebarToggle();
 	initBookmarks();
-	ThemeSwitcher();
 	initSidebarPanel();
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+    window.initGXONTemplate();
+	ThemeSwitcher();
 });
 
 
