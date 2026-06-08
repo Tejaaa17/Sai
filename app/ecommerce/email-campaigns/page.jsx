@@ -132,7 +132,7 @@ export default function EmailCampaignsPage() {
                       <td>52%</td>
                       <td>21%</td>
                       <td>
-                        <a href="javascript:void(0);" className="btn btn-sm btn-outline-primary">
+                        <a href="#" className="btn btn-sm btn-outline-primary">
                           View
                         </a>
                       </td>
@@ -146,7 +146,7 @@ export default function EmailCampaignsPage() {
                       <td>41%</td>
                       <td>17%</td>
                       <td>
-                        <a href="javascript:void(0);" className="btn btn-sm btn-outline-primary">
+                        <a href="#" className="btn btn-sm btn-outline-primary">
                           View
                         </a>
                       </td>
@@ -160,7 +160,7 @@ export default function EmailCampaignsPage() {
                       <td>–</td>
                       <td>–</td>
                       <td>
-                        <a href="javascript:void(0);" className="btn btn-sm btn-outline-success">
+                        <a href="#" className="btn btn-sm btn-outline-success">
                           Continue
                         </a>
                       </td>
@@ -174,7 +174,7 @@ export default function EmailCampaignsPage() {
                       <td>58%</td>
                       <td>24%</td>
                       <td>
-                        <a href="javascript:void(0);" className="btn btn-sm btn-outline-primary">
+                        <a href="#" className="btn btn-sm btn-outline-primary">
                           View
                         </a>
                       </td>
@@ -188,7 +188,7 @@ export default function EmailCampaignsPage() {
                       <td>12%</td>
                       <td>4%</td>
                       <td>
-                        <a href="javascript:void(0);" className="btn btn-sm btn-outline-primary">
+                        <a href="#" className="btn btn-sm btn-outline-primary">
                           Retry
                         </a>
                       </td>

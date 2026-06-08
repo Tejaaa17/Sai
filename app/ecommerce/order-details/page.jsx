@@ -64,13 +64,13 @@ export default function OrderDetailsPage() {
                           <p className="mb-0 text-2xs">Order Created : August 25, 2025 12:50 AM</p>
                         </div>
                         <div className="clearfix d-flex gap-2">
-                          <a href="javascript:void(0);" className="btn btn-sm btn-outline-light btn-shadow waves-effect">
+                          <a href="#" className="btn btn-sm btn-outline-light btn-shadow waves-effect">
                             Refund
                           </a>
-                          <a href="javascript:void(0);" className="btn btn-sm btn-outline-light btn-shadow waves-effect">
+                          <a href="#" className="btn btn-sm btn-outline-light btn-shadow waves-effect">
                             Return
                           </a>
-                          <a href="javascript:void(0);" className="btn btn-sm btn-primary btn-shadow waves-effect">
+                          <a href="#" className="btn btn-sm btn-primary btn-shadow waves-effect">
                             Edit Order
                           </a>
                         </div>
@@ -102,7 +102,7 @@ export default function OrderDetailsPage() {
                           <small>Delivered</small>
                         </div>
                       </div>
-                      <a href="javascript:void(0);" className="btn btn-sm btn-info waves-effect btn-shadow mt-4">
+                      <a href="#" className="btn btn-sm btn-info waves-effect btn-shadow mt-4">
                         Make As Ready To Ship
                       </a>
                     </div>
@@ -242,11 +242,11 @@ export default function OrderDetailsPage() {
                             <h6 className="mb-1 text-dark">The Invoice has been sent to the customer</h6>
                             <p className="mb-2 text-2xs">
                               Invoice email was sent to{" "}
-                              <a href="javascript:void(0);" className="text-secondary">
+                              <a href="#" className="text-secondary">
                                 customer@abcstore.com
                               </a>
                             </p>
-                            <a href="javascript:void(0);" className="badge badge-sm text-bg-info">
+                            <a href="#" className="badge badge-sm text-bg-info">
                               Resend Invoice
                             </a>
                           </div>
@@ -259,7 +259,7 @@ export default function OrderDetailsPage() {
                             <p className="mb-1 text-2xs fw-semibold">Aug 25, 2025, 11:25 am</p>
                             <h6 className="mb-1 text-dark">The Invoice has been generated</h6>
                             <p className="mb-2 text-2xs">Invoice created by Sophia Johnson</p>
-                            <a href="javascript:void(0);" className="badge badge-sm text-bg-secondary">
+                            <a href="#" className="badge badge-sm text-bg-secondary">
                               Download Invoice
                             </a>
                           </div>
@@ -283,7 +283,7 @@ export default function OrderDetailsPage() {
                           <div className="ms-2">
                             <p className="mb-1 text-2xs fw-semibold">Aug 25, 2025, 11:40 am</p>
                             <h6 className="mb-2 text-dark">3 Orders confirmed by Sophia Johnson</h6>
-                            <a href="javascript:void(0);" className="badge badge-sm text-bg-primary">
+                            <a href="#" className="badge badge-sm text-bg-primary">
                               3 Orders
                             </a>
                           </div>
@@ -327,7 +327,7 @@ export default function OrderDetailsPage() {
                   <div className="card">
                     <div className="card-header d-flex justify-content-between align-items-center border-0 pb-0">
                       <h6 className="card-title mb-0">Customer Details</h6>
-                      <a href="javascript:void(0);" className="btn btn-action-gray btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
+                      <a href="#" className="btn btn-action-gray btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
                         <i className="fi fi-rr-pencil"></i>
                       </a>
                     </div>
@@ -338,7 +338,7 @@ export default function OrderDetailsPage() {
                         </div>
                         <div>
                           <h6 className="mb-0">Ava Lewis</h6>
-                          <a href="javascript:void(0);" className="text-body text-2xs">
+                          <a href="#" className="text-body text-2xs">
                             johndoe@example.com
                           </a>
                         </div>

@@ -165,7 +165,7 @@ export default function ProductsPage() {
                       {product.oldPrice && <del className="text-body">${product.oldPrice}</del>} ${product.price}
                       {product.discount && <small className="text-body"> ({product.discount})</small>}
                     </h6>
-                    <a href="javascript:void(0);" className="btn btn-white w-100">
+                    <a href="#" className="btn btn-white w-100">
                       <i className="fi fi-rr-shopping-cart me-1"></i> Add to Cart
                     </a>
                   </div>
@@ -177,27 +177,27 @@ export default function ProductsPage() {
           <nav aria-label="Page navigation example">
             <ul className="pagination">
               <li className="page-item">
-                <a className="page-link" href="javascript:void(0);" aria-label="Previous">
+                <a className="page-link" href="#" aria-label="Previous">
                   <i className="fi fi-rr-angle-double-left"></i>
                 </a>
               </li>
               <li className="page-item">
-                <a className="page-link" href="javascript:void(0);">
+                <a className="page-link" href="#">
                   1
                 </a>
               </li>
               <li className="page-item">
-                <a className="page-link" href="javascript:void(0);">
+                <a className="page-link" href="#">
                   2
                 </a>
               </li>
               <li className="page-item">
-                <a className="page-link" href="javascript:void(0);">
+                <a className="page-link" href="#">
                   3
                 </a>
               </li>
               <li className="page-item">
-                <a className="page-link" href="javascript:void(0);" aria-label="Next">
+                <a className="page-link" href="#" aria-label="Next">
                   <i className="fi fi-rr-angle-double-right"></i>
                 </a>
               </li>

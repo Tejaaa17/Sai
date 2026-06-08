@@ -130,12 +130,12 @@ export default function OrdersPage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>
@@ -191,12 +191,12 @@ export default function OrdersPage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>
@@ -252,12 +252,12 @@ export default function OrdersPage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>
@@ -313,12 +313,12 @@ export default function OrdersPage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>
@@ -374,12 +374,12 @@ export default function OrdersPage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>
@@ -435,12 +435,12 @@ export default function OrdersPage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>
@@ -496,12 +496,12 @@ export default function OrdersPage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>
@@ -557,12 +557,12 @@ export default function OrdersPage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>
@@ -618,12 +618,12 @@ export default function OrdersPage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>

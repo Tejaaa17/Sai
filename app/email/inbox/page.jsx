@@ -187,7 +187,7 @@ export default function EmailInboxPage() {
                           <div className="form-check m-0 ms-1">
                             <input className="form-check-input checkable-check-all" type="checkbox" />
                           </div>
-                          <a href="javascript:void(0);" className="text-body ms-1">
+                          <a href="#" className="text-body ms-1">
                             <i className="fi fi-rr-rotate-right"></i>
                           </a>
                         </div>
@@ -200,7 +200,7 @@ export default function EmailInboxPage() {
                               <div className="form-check my-0 me-2">
                                 <input className="form-check-input checkable-check-input" type="checkbox" />
                               </div>
-                              <a className={`mail-item-bookmark ${email.starred ? "active" : ""}`} href="javascript:void(0);">
+                              <a className={`mail-item-bookmark ${email.starred ? "active" : ""}`} href="#">
                                 <i className="fi fi-rr-star me-2 me-sm-3"></i>
                               </a>
                               <Link href="/email/read-email" className="mail-item-content ms-2 ms-sm-0 me-2">

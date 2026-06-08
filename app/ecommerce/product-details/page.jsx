@@ -335,13 +335,13 @@ export default function ProductDetailsPage() {
                     </div>
                   </div>
                   <div className="d-flex flex-wrap gap-2 pt-4">
-                    <a href="javascript:void(0);" className="btn btn-secondary waves-effect">
+                    <a href="#" className="btn btn-secondary waves-effect">
                       <i className="fi fi-rr-shopping-cart me-1"></i> Add To Cart
                     </a>
-                    <a href="javascript:void(0);" className="btn btn-light waves-effect">
+                    <a href="#" className="btn btn-light waves-effect">
                       <i className="fi fi-sr-shopping-bag me-1"></i> Buy Now
                     </a>
-                    <a href="javascript:void(0);" className="btn bg-danger-subtle btn-icon text-danger waves-effect">
+                    <a href="#" className="btn bg-danger-subtle btn-icon text-danger waves-effect">
                       <i className="fi fi-bs-heart"></i>
                     </a>
                   </div>
@@ -695,27 +695,27 @@ export default function ProductDetailsPage() {
                             <nav aria-label="Page navigation example">
                               <ul className="pagination mb-0">
                                 <li className="page-item">
-                                  <a className="page-link" href="javascript:void(0);" aria-label="Previous">
+                                  <a className="page-link" href="#" aria-label="Previous">
                                     <i className="fi fi-rr-angle-double-left"></i>
                                   </a>
                                 </li>
                                 <li className="page-item">
-                                  <a className="page-link" href="javascript:void(0);">
+                                  <a className="page-link" href="#">
                                     1
                                   </a>
                                 </li>
                                 <li className="page-item">
-                                  <a className="page-link" href="javascript:void(0);">
+                                  <a className="page-link" href="#">
                                     2
                                   </a>
                                 </li>
                                 <li className="page-item">
-                                  <a className="page-link" href="javascript:void(0);">
+                                  <a className="page-link" href="#">
                                     3
                                   </a>
                                 </li>
                                 <li className="page-item">
-                                  <a className="page-link" href="javascript:void(0);" aria-label="Next">
+                                  <a className="page-link" href="#" aria-label="Next">
                                     <i className="fi fi-rr-angle-double-right"></i>
                                   </a>
                                 </li>

@@ -19,7 +19,7 @@ export default function Sidebar() {
         <nav className="app-navbar" data-simplebar>
           <ul className="menubar">
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-apps"></i>
                 <span className="menu-label">Dashboard</span>
               </a>
@@ -93,7 +93,7 @@ export default function Sidebar() {
               </Link>
             </li>
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-envelope"></i>
                 <span className="menu-label">Email</span>
               </a>
@@ -117,7 +117,7 @@ export default function Sidebar() {
             </li>
 
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-file"></i>
                 <span className="menu-label">Pages</span>
               </a>
@@ -158,7 +158,7 @@ export default function Sidebar() {
                   </Link>
                 </li>
                 <li className="menu-item menu-arrow">
-                  <a className="menu-link" href="javascript:void(0);">
+                  <a className="menu-link" href="#">
                     <span className="menu-label">Blog</span>
                   </a>
                   <ul className="menu-inner">
@@ -180,7 +180,7 @@ export default function Sidebar() {
                   </ul>
                 </li>
                 <li className="menu-item menu-arrow">
-                  <a className="menu-link" href="javascript:void(0);">
+                  <a className="menu-link" href="#">
                     <span className="menu-label">Error</span>
                   </a>
                   <ul className="menu-inner">
@@ -202,7 +202,7 @@ export default function Sidebar() {
                   </ul>
                 </li>
                 <li className="menu-item menu-arrow">
-                  <a className="menu-link" href="javascript:void(0);">
+                  <a className="menu-link" href="#">
                     <span className="menu-label">Under Construction</span>
                   </a>
                   <ul className="menu-inner">
@@ -237,13 +237,13 @@ export default function Sidebar() {
             </li>
 
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-user-key"></i>
                 <span className="menu-label">Authentication</span>
               </a>
               <ul className="menu-inner">
                 <li className="menu-item menu-arrow">
-                  <a className="menu-link" href="javascript:void(0);">
+                  <a className="menu-link" href="#">
                     <span className="menu-label">Login</span>
                   </a>
                   <ul className="menu-inner">
@@ -265,7 +265,7 @@ export default function Sidebar() {
                   </ul>
                 </li>
                 <li className="menu-item menu-arrow">
-                  <a className="menu-link" href="javascript:void(0);">
+                  <a className="menu-link" href="#">
                     <span className="menu-label">Register</span>
                   </a>
                   <ul className="menu-inner">
@@ -287,7 +287,7 @@ export default function Sidebar() {
                   </ul>
                 </li>
                 <li className="menu-item menu-arrow">
-                  <a className="menu-link" href="javascript:void(0);">
+                  <a className="menu-link" href="#">
                     <span className="menu-label">Forgot Password</span>
                   </a>
                   <ul className="menu-inner">
@@ -309,7 +309,7 @@ export default function Sidebar() {
                   </ul>
                 </li>
                 <li className="menu-item menu-arrow">
-                  <a className="menu-link" href="javascript:void(0);">
+                  <a className="menu-link" href="#">
                     <span className="menu-label">New Password</span>
                   </a>
                   <ul className="menu-inner">
@@ -334,7 +334,7 @@ export default function Sidebar() {
             </li>
 
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-folder-open"></i>
                 <span className="menu-label">File Manager</span>
               </a>
@@ -353,7 +353,7 @@ export default function Sidebar() {
             </li>
 
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rs-receipt"></i>
                 <span className="menu-label">Invoice Manager</span>
               </a>
@@ -380,7 +380,7 @@ export default function Sidebar() {
               <span className="menu-label">Components</span>
             </li>
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-flux-capacitor"></i>
                 <span className="menu-label">UI Components</span>
               </a>
@@ -504,7 +504,7 @@ export default function Sidebar() {
             </li>
 
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-apps-add"></i>
                 <span className="menu-label">Extended UI</span>
               </a>
@@ -548,7 +548,7 @@ export default function Sidebar() {
             </li>
 
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-bolt"></i>
                 <span className="menu-label">Icons</span>
               </a>
@@ -575,7 +575,7 @@ export default function Sidebar() {
               <span className="menu-label">Forms & Tables</span>
             </li>
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-form"></i>
                 <span className="menu-label">Form Elements</span>
               </a>
@@ -619,7 +619,7 @@ export default function Sidebar() {
             </li>
 
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-table-layout"></i>
                 <span className="menu-label">Table</span>
               </a>
@@ -641,7 +641,7 @@ export default function Sidebar() {
               <span className="menu-label">Charts & Maps</span>
             </li>
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-chart-pie-alt"></i>
                 <span className="menu-label">Charts</span>
               </a>
@@ -659,7 +659,7 @@ export default function Sidebar() {
               </ul>
             </li>
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rr-marker"></i>
                 <span className="menu-label">Maps</span>
               </a>
@@ -681,7 +681,7 @@ export default function Sidebar() {
               <span className="menu-label">Others</span>
             </li>
             <li className="menu-item">
-              <a className="menu-link" href="javascript:void(0);">
+              <a className="menu-link" href="#">
                 <i className="fi fi-rs-badget-check-alt"></i>
                 <span className="menu-label">Badge</span>
                 <span className="badge badge-sm rounded-pill bg-secondary ms-2 float-end">5</span>
@@ -694,28 +694,28 @@ export default function Sidebar() {
               </a>
             </li>
             <li className="menu-item menu-arrow">
-              <a className="menu-link" href="javascript:void(0);" role="button">
+              <a className="menu-link" href="#" role="button">
                 <i className="fi fi-rs-floor-layer"></i>
                 <span className="menu-label">Multi Level</span>
               </a>
               <ul className="menu-inner">
                 <li className="menu-item menu-arrow">
-                  <a className="menu-link" href="javascript:void(0);">
+                  <a className="menu-link" href="#">
                     <span className="menu-label">Multi Level 2</span>
                   </a>
                   <ul className="menu-inner">
                     <li className="menu-item">
-                      <a className="menu-link" href="javascript:void(0);">
+                      <a className="menu-link" href="#">
                         <span className="menu-label">Multi Level 3</span>
                       </a>
                     </li>
                     <li className="menu-item">
-                      <a className="menu-link" href="javascript:void(0);">
+                      <a className="menu-link" href="#">
                         <span className="menu-label">Multi Level 3</span>
                       </a>
                     </li>
                     <li className="menu-item">
-                      <a className="menu-link" href="javascript:void(0);">
+                      <a className="menu-link" href="#">
                         <span className="menu-label">Multi Level 3</span>
                       </a>
                     </li>

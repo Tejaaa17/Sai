@@ -257,7 +257,7 @@ export default function HomePage() {
                           <li>
                             <a
                               className="dropdown-item"
-                              href="javascript:void(0);"
+                              href="#"
                               data-class="btn-outline-light"
                               data-selected="true"
                             >
@@ -265,12 +265,12 @@ export default function HomePage() {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-subtle-primary">
+                            <a className="dropdown-item" href="#" data-class="btn-subtle-primary">
                               Approved
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-subtle-secondary">
+                            <a className="dropdown-item" href="#" data-class="btn-subtle-secondary">
                               Rejected
                             </a>
                           </li>
@@ -296,14 +296,14 @@ export default function HomePage() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-outline-light">
+                            <a className="dropdown-item" href="#" data-class="btn-outline-light">
                               Pending
                             </a>
                           </li>
                           <li>
                             <a
                               className="dropdown-item"
-                              href="javascript:void(0);"
+                              href="#"
                               data-class="btn-subtle-primary"
                               data-selected="true"
                             >
@@ -311,7 +311,7 @@ export default function HomePage() {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-subtle-secondary">
+                            <a className="dropdown-item" href="#" data-class="btn-subtle-secondary">
                               Rejected
                             </a>
                           </li>
@@ -337,19 +337,19 @@ export default function HomePage() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-outline-light">
+                            <a className="dropdown-item" href="#" data-class="btn-outline-light">
                               Pending
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-subtle-primary">
+                            <a className="dropdown-item" href="#" data-class="btn-subtle-primary">
                               Approved
                             </a>
                           </li>
                           <li>
                             <a
                               className="dropdown-item"
-                              href="javascript:void(0);"
+                              href="#"
                               data-class="btn-subtle-secondary"
                               data-selected="true"
                             >
@@ -380,7 +380,7 @@ export default function HomePage() {
                           <li>
                             <a
                               className="dropdown-item"
-                              href="javascript:void(0);"
+                              href="#"
                               data-class="btn-outline-light"
                               data-selected="true"
                             >
@@ -388,12 +388,12 @@ export default function HomePage() {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-subtle-primary">
+                            <a className="dropdown-item" href="#" data-class="btn-subtle-primary">
                               Approved
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-subtle-secondary">
+                            <a className="dropdown-item" href="#" data-class="btn-subtle-secondary">
                               Rejected
                             </a>
                           </li>
@@ -419,14 +419,14 @@ export default function HomePage() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-outline-light">
+                            <a className="dropdown-item" href="#" data-class="btn-outline-light">
                               Pending
                             </a>
                           </li>
                           <li>
                             <a
                               className="dropdown-item"
-                              href="javascript:void(0);"
+                              href="#"
                               data-class="btn-subtle-primary"
                               data-selected="true"
                             >
@@ -434,7 +434,7 @@ export default function HomePage() {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-class="btn-subtle-secondary">
+                            <a className="dropdown-item" href="#" data-class="btn-subtle-secondary">
                               Rejected
                             </a>
                           </li>
@@ -481,14 +481,14 @@ export default function HomePage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);" data-class="btn-outline-light">
+                                <a className="dropdown-item" href="#" data-class="btn-outline-light">
                                   Pending
                                 </a>
                               </li>
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-primary"
                                   data-selected="true"
                                 >
@@ -498,7 +498,7 @@ export default function HomePage() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-secondary"
                                 >
                                   Rejected
@@ -525,14 +525,14 @@ export default function HomePage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);" data-class="btn-outline-light">
+                                <a className="dropdown-item" href="#" data-class="btn-outline-light">
                                   Pending
                                 </a>
                               </li>
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-primary"
                                   data-selected="true"
                                 >
@@ -542,7 +542,7 @@ export default function HomePage() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-secondary"
                                 >
                                   Rejected
@@ -569,14 +569,14 @@ export default function HomePage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);" data-class="btn-outline-light">
+                                <a className="dropdown-item" href="#" data-class="btn-outline-light">
                                   Pending
                                 </a>
                               </li>
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-primary"
                                   data-selected="true"
                                 >
@@ -586,7 +586,7 @@ export default function HomePage() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-secondary"
                                 >
                                   Rejected
@@ -613,14 +613,14 @@ export default function HomePage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);" data-class="btn-outline-light">
+                                <a className="dropdown-item" href="#" data-class="btn-outline-light">
                                   Pending
                                 </a>
                               </li>
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-primary"
                                   data-selected="true"
                                 >
@@ -630,7 +630,7 @@ export default function HomePage() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-secondary"
                                 >
                                   Rejected
@@ -657,14 +657,14 @@ export default function HomePage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);" data-class="btn-outline-light">
+                                <a className="dropdown-item" href="#" data-class="btn-outline-light">
                                   Pending
                                 </a>
                               </li>
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-primary"
                                   data-selected="true"
                                 >
@@ -674,7 +674,7 @@ export default function HomePage() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   data-class="btn-subtle-secondary"
                                 >
                                   Rejected
@@ -706,17 +706,17 @@ export default function HomePage() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">
+                        <a className="dropdown-item" href="#">
                           Onsite
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">
+                        <a className="dropdown-item" href="#">
                           Remote
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">
+                        <a className="dropdown-item" href="#">
                           Hybrid
                         </a>
                       </li>
@@ -844,12 +844,12 @@ export default function HomePage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Delete
                                 </a>
                               </li>
@@ -888,7 +888,7 @@ export default function HomePage() {
                     </button>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">
+                        <a className="dropdown-item" href="#">
                           Last Month
                         </a>
                       </li>
@@ -932,7 +932,7 @@ export default function HomePage() {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                               <li>
-                                <a className="dropdown-item" href="javascript:void(0);">
+                                <a className="dropdown-item" href="#">
                                   Edit
                                 </a>
                               </li>
@@ -950,7 +950,7 @@ export default function HomePage() {
               <div className="card">
                 <div className="card-header d-flex align-items-center justify-content-between border-0 pb-0">
                   <h6 className="card-title mb-0">Attendance Rate</h6>
-                  <a href="javascript:void(0);" className="btn btn-sm btn-outline-light waves-effect btn-shadow">
+                  <a href="#" className="btn btn-sm btn-outline-light waves-effect btn-shadow">
                     Download Report
                   </a>
                 </div>
