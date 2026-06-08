@@ -470,10 +470,15 @@ window.initGXONTemplate = () => {
 	initSidebarPanel();
 };
 
-document.addEventListener("DOMContentLoaded", () => {
+if (document.readyState === "complete" || document.readyState === "interactive") {
     window.initGXONTemplate();
-	ThemeSwitcher();
-});
+    ThemeSwitcher();
+} else {
+    document.addEventListener("DOMContentLoaded", () => {
+        window.initGXONTemplate();
+        ThemeSwitcher();
+    });
+}
 
 
 $(document).ready(function () {
