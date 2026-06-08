@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 function loadTemplateBodyHtml() {
-  const sourcePath = path.join(process.cwd(), "..", "src", "components", "alerts.html");
+  const sourcePath = path.join(process.cwd(), "src-templates", "components", "alerts.html");
     let raw;
   try {
     raw = fs.readFileSync(sourcePath, "utf8");
@@ -29,8 +29,7 @@ function loadTemplateBodyHtml() {
     "",
   );
 
-  bodyHtml = bodyHtml.replaceAll('href="assets/', 'href="/assets/');
-  bodyHtml = bodyHtml.replaceAll('src="assets/', 'src="/assets/');
+  bodyHtml = bodyHtml.replace(/(href|src)="(?!\/|http|https|javascript:|#)([^"]+)"/g, '$1="/$2"')
   
   // Clean up relative/static .html links to resolve correctly as absolute Next.js routes
   bodyHtml = bodyHtml.replace(/href="([^"]+)\.html"/g, (match, p) => {
@@ -48,4 +47,5 @@ export default function AlertsPage() {
   const html = loadTemplateBodyHtml();
   return <TemplatePageClient html={html} />;
 }
+
 

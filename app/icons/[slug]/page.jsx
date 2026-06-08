@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 function loadTemplateBodyHtml(slug) {
-  const sourcePath = path.join(process.cwd(), "..", "src", "icons", `${slug}.html`);
+  const sourcePath = path.join(process.cwd(), "src-templates", "icons", `${slug}.html`);
   let raw;
   try {
     raw = fs.readFileSync(sourcePath, "utf8");
@@ -26,8 +26,7 @@ function loadTemplateBodyHtml(slug) {
     "",
   );
 
-  bodyHtml = bodyHtml.replaceAll('href="assets/', 'href="/assets/');
-  bodyHtml = bodyHtml.replaceAll('src="assets/', 'src="/assets/');
+  bodyHtml = bodyHtml.replace(/(href|src)="(?!\/|http|https|javascript:|#)([^"]+)"/g, '$1="/$2"')
   
   // Clean up relative/static .html links to resolve correctly as absolute Next.js routes
   bodyHtml = bodyHtml.replace(/href="([^"]+)\.html"/g, (match, p) => {
@@ -46,3 +45,4 @@ export default async function IconsRoute({ params }) {
   const html = loadTemplateBodyHtml(slug);
   return <TemplatePageClient html={html} />;
 }
+
