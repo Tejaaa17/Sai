@@ -70,3 +70,33 @@
 {"timestamp":"00:11:04.594","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
 {"timestamp":"00:11:13.935","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
 {"timestamp":"00:12:54.748","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:13:53.450","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:15:59.952","source":"Server","level":"LOG","message":"✓ Compiled in 176ms"}
+{"timestamp":"00:17:19.505","source":"Browser","level":"ERROR","message":"uncaughtError: Error: React has blocked a javascript: URL as a security precaution."}
+{"timestamp":"00:17:19.508","source":"Server","level":"ERROR","message":"[browser] \"Uncaught Error: React has blocked a javascript: URL as a security precaution.\\n    at <unknown> (<anonymous>:1:7)\""}
+{"timestamp":"00:17:19.508","source":"Browser","level":"ERROR","message":"Uncaught Error: React has blocked a javascript: URL as a security precaution.\n    at <unknown> (<anonymous>:1:7)"}
+{"timestamp":"00:17:22.765","source":"Browser","level":"ERROR","message":"uncaughtError: Error: React has blocked a javascript: URL as a security precaution."}
+{"timestamp":"00:17:22.766","source":"Server","level":"ERROR","message":"[browser] \"Uncaught Error: React has blocked a javascript: URL as a security precaution.\\n    at <unknown> (<anonymous>:1:7)\""}
+{"timestamp":"00:17:22.766","source":"Browser","level":"ERROR","message":"Uncaught Error: React has blocked a javascript: URL as a security precaution.\n    at <unknown> (<anonymous>:1:7)"}
+{"timestamp":"00:17:23.347","source":"Browser","level":"ERROR","message":"uncaughtError: Error: React has blocked a javascript: URL as a security precaution."}
+{"timestamp":"00:17:23.347","source":"Server","level":"ERROR","message":"[browser] \"Uncaught Error: React has blocked a javascript: URL as a security precaution.\\n    at <unknown> (<anonymous>:1:7)\""}
+{"timestamp":"00:17:23.347","source":"Browser","level":"ERROR","message":"Uncaught Error: React has blocked a javascript: URL as a security precaution.\n    at <unknown> (<anonymous>:1:7)"}
+{"timestamp":"00:17:23.865","source":"Browser","level":"ERROR","message":"uncaughtError: Error: React has blocked a javascript: URL as a security precaution."}
+{"timestamp":"00:17:23.865","source":"Server","level":"ERROR","message":"[browser] \"Uncaught Error: React has blocked a javascript: URL as a security precaution.\\n    at <unknown> (<anonymous>:1:7)\""}
+{"timestamp":"00:17:23.865","source":"Browser","level":"ERROR","message":"Uncaught Error: React has blocked a javascript: URL as a security precaution.\n    at <unknown> (<anonymous>:1:7)"}
+{"timestamp":"00:17:24.413","source":"Server","level":"ERROR","message":"[browser] \"Uncaught Error: React has blocked a javascript: URL as a security precaution.\\n    at <unknown> (<anonymous>:1:7)\""}
+{"timestamp":"00:17:24.414","source":"Browser","level":"ERROR","message":"Uncaught Error: React has blocked a javascript: URL as a security precaution.\n    at <unknown> (<anonymous>:1:7)"}
+{"timestamp":"00:17:24.414","source":"Browser","level":"ERROR","message":"uncaughtError: Error: React has blocked a javascript: URL as a security precaution."}
+{"timestamp":"00:17:25.014","source":"Browser","level":"ERROR","message":"uncaughtError: Error: React has blocked a javascript: URL as a security precaution."}
+{"timestamp":"00:17:25.014","source":"Server","level":"ERROR","message":"[browser] \"Uncaught Error: React has blocked a javascript: URL as a security precaution.\\n    at <unknown> (<anonymous>:1:7)\""}
+{"timestamp":"00:17:25.014","source":"Browser","level":"ERROR","message":"Uncaught Error: React has blocked a javascript: URL as a security precaution.\n    at <unknown> (<anonymous>:1:7)"}
+{"timestamp":"00:17:26.864","source":"Browser","level":"ERROR","message":"uncaughtError: Error: React has blocked a javascript: URL as a security precaution."}
+{"timestamp":"00:17:26.864","source":"Server","level":"ERROR","message":"[browser] \"Uncaught Error: React has blocked a javascript: URL as a security precaution.\\n    at <unknown> (<anonymous>:1:7)\""}
+{"timestamp":"00:17:26.864","source":"Browser","level":"ERROR","message":"Uncaught Error: React has blocked a javascript: URL as a security precaution.\n    at <unknown> (<anonymous>:1:7)"}
+{"timestamp":"00:17:27.597","source":"Browser","level":"ERROR","message":"uncaughtError: Error: React has blocked a javascript: URL as a security precaution."}
+{"timestamp":"00:17:27.597","source":"Server","level":"ERROR","message":"[browser] \"Uncaught Error: React has blocked a javascript: URL as a security precaution.\\n    at <unknown> (<anonymous>:1:7)\""}
+{"timestamp":"00:17:27.597","source":"Browser","level":"ERROR","message":"Uncaught Error: React has blocked a javascript: URL as a security precaution.\n    at <unknown> (<anonymous>:1:7)"}
+{"timestamp":"00:17:27.963","source":"Browser","level":"ERROR","message":"uncaughtError: Error: React has blocked a javascript: URL as a security precaution."}
+{"timestamp":"00:17:27.964","source":"Server","level":"ERROR","message":"[browser] \"Uncaught Error: React has blocked a javascript: URL as a security precaution.\\n    at <unknown> (<anonymous>:1:7)\""}
+{"timestamp":"00:17:27.964","source":"Browser","level":"ERROR","message":"Uncaught Error: React has blocked a javascript: URL as a security precaution.\n    at <unknown> (<anonymous>:1:7)"}
+{"timestamp":"00:18:04.448","source":"Server","level":"LOG","message":"✓ Compiled in 1208ms"}

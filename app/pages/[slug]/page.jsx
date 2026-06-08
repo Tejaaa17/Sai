@@ -1,3 +1,4 @@
+import TemplatePageClient from "../../_components/TemplatePageClient";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -45,5 +46,5 @@ function loadTemplateBodyHtml(slug) {
 export default async function PagesRoute({ params }) {
   const { slug } = await params;
   const html = loadTemplateBodyHtml(slug);
-  return <div dangerouslySetInnerHTML={{ __html: html }} />;
+  return <TemplatePageClient html={html} />;
 }

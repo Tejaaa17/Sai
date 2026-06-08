@@ -1,3 +1,4 @@
+import TemplatePageClient from "../../_components/TemplatePageClient";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -45,6 +46,6 @@ function loadTemplateBodyHtml() {
 
 export default function AlertsPage() {
   const html = loadTemplateBodyHtml();
-  return <div dangerouslySetInnerHTML={{ __html: html }} />;
+  return <TemplatePageClient html={html} />;
 }
 
